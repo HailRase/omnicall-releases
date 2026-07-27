@@ -1,6 +1,6 @@
 # Changelog
 
-Public release history for **Axatalk** distribution builds.
+Public release history for **OmniCall** distribution builds.
 
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).  
 Versioning: SemVer. Git tag: `v<version>`.

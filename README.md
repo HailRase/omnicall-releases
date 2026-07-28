@@ -50,7 +50,7 @@ sudo apt install ./OmniCall-*-linux-amd64.deb
 
 ```bash
 chmod +x OmniCall-*-linux-x86_64.AppImage
-./Axatalk-*-linux-x86_64.AppImage
+./OmniCall-*-linux-x86_64.AppImage
 ```
 
 ### First launch
@@ -73,7 +73,7 @@ A full version history is also available in [`CHANGELOG.md`](CHANGELOG.md).
 
 ## Updates
 
-Axatalk checks for updates using [`update-manifest.json`](update-manifest.json) on the `main` branch of this repository.
+OmniCall checks for updates using [`update-manifest.json`](update-manifest.json) on the `main` branch of this repository.
 
 - **In the app:** Settings → General → About → **Check for updates**
 - When a newer version is available, the app opens the latest release download page
@@ -87,7 +87,7 @@ The manifest exposes `latestVersion`, `downloadUrl`, per-platform installer URLs
 
 - **PBX and SIP account setup** — contact your telephony administrator
 - **Client installation** — use this page and the [Releases](https://github.com/HailRase/omnicall-releases/releases) page
-- **Product issues** — report through your organization's Axatalk support channel
+- **Product issues** — report through your organization's OmniCall support channel
 
 ---
 

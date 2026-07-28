@@ -35,12 +35,12 @@ During a release cut, update **both** changelogs. Public bullets must be user-fa
 - Caveats or migration notes (only when relevant)
 
 ### Distribution artifacts
-- Windows: `Axatalk-X.Y.Z-win-x64.exe`, `Axatalk-X.Y.Z-win-x64.msi`
-- macOS: `Axatalk-X.Y.Z-mac-arm64.dmg`
-- Linux: `Axatalk-X.Y.Z-linux-x86_64.AppImage`, `Axatalk-X.Y.Z-linux-amd64.deb`
+- Windows: `OmniCall-X.Y.Z-win-x64.exe`, `OmniCall-X.Y.Z-win-x64.msi`
+- macOS: `OmniCall-X.Y.Z-mac-arm64.dmg`
+- Linux: `OmniCall-X.Y.Z-linux-x86_64.AppImage`, `OmniCall-X.Y.Z-linux-amd64.deb`
 
 ### Updates
-In-app update checks read [`update-manifest.json`](https://github.com/HailRase/axatalk-releases/blob/main/update-manifest.json) on `main`.
+In-app update checks read [`update-manifest.json`](https://github.com/HailRase/omnicall-releases/blob/main/update-manifest.json) on `main`.
 ```
 
 Sections with no items are omitted. If no changelog entry exists for a version, the fallback body is:

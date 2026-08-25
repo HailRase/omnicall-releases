@@ -21,7 +21,8 @@ This repository does **not** contain application source code. It hosts public di
 | [`README.md`](README.md) | Installation and update guidance |
 | [`update-manifest.json`](update-manifest.json) | Version metadata for in-app update checks |
 | [`CHANGELOG.md`](CHANGELOG.md) | Public release history (English) |
-| [**GitHub Releases**](https://github.com/HailRase/omnicall-releases/releases) | Signed-off installers per version |
+| [**GitHub Releases**](https://github.com/HailRase/omnicall-releases/releases) | Canonical installers per version |
+| [**Profile mirror**](https://github.com/softomnitel/omnicall-releases/releases) | Same installers on the SoftOmniTel GitHub profile |
 
 ---
 
@@ -73,11 +74,12 @@ A full version history is also available in [`CHANGELOG.md`](CHANGELOG.md).
 
 ## Updates
 
-OmniCall checks for updates using [`update-manifest.json`](update-manifest.json) on the `main` branch of this repository.
+OmniCall checks for updates using [`update-manifest.json`](https://raw.githubusercontent.com/HailRase/omnicall-releases/main/update-manifest.json) on the `main` branch of **HailRase/omnicall-releases**.
 
 - **In the app:** Settings → General → About → **Check for updates**
-- When a newer version is available, the app opens the latest release download page
+- When a newer version is available, the app opens the latest **HailRase** release download page
 - Updates are **manual** — the app does not auto-install new versions
+- Identical installer files are also published to [`softomnitel/omnicall-releases`](https://github.com/softomnitel/omnicall-releases/releases) for profile visibility. In-app checks do not use that mirror.
 
 The manifest exposes `latestVersion`, `downloadUrl`, per-platform installer URLs, and a link to release notes.
 
